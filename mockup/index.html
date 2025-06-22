@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Models Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1>AI Models Calculator</h1>
+                <p class="subtitle">Compare and filter <span id="total-models-count">0</span> AI models</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="app-content">
+            <!-- Sidebar Filters -->
+            <aside class="sidebar">
+                <div class="sidebar-content">
+                    <div class="sidebar-header">
+                        <h3>Filters</h3>
+                        <button class="btn btn--sm btn--outline" id="clear-filters">Clear All</button>
+                    </div>
+
+                    <!-- Search -->
+                    <div class="filter-section">
+                        <h4 class="filter-title">Search</h4>
+                        <input type="text" class="form-control" id="search-input" placeholder="Search by model name...">
+                    </div>
+
+                    <!-- Providers Filter -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="providers-filter">
+                            <span>Providers</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="providers-filter">
+                            <div id="provider-checkboxes"></div>
+                        </div>
+                    </div>
+
+                    <!-- Capabilities Filter -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="capabilities-filter">
+                            <span>Capabilities</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="capabilities-filter">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="reasoning-filter" value="reasoning">
+                                <span class="checkmark"></span>
+                                Reasoning
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="tool-call-filter" value="tool_call">
+                                <span class="checkmark"></span>
+                                Tool Calling
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="attachment-filter" value="attachment">
+                                <span class="checkmark"></span>
+                                Attachment Support
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="temperature-filter" value="temperature">
+                                <span class="checkmark"></span>
+                                Temperature Control
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Input Modalities -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="input-modalities-filter">
+                            <span>Input Modalities</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="input-modalities-filter">
+                            <div id="input-modality-checkboxes"></div>
+                        </div>
+                    </div>
+
+                    <!-- Output Modalities -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="output-modalities-filter">
+                            <span>Output Modalities</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="output-modalities-filter">
+                            <div id="output-modality-checkboxes"></div>
+                        </div>
+                    </div>
+
+                    <!-- Cost Filters -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="cost-filter">
+                            <span>Cost Filters</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="cost-filter">
+                            <div class="range-filter">
+                                <label for="input-cost-range">Input Cost (per M tokens)</label>
+                                <div class="range-display">
+                                    <span>$<span id="input-cost-min">0</span></span>
+                                    <span>$<span id="input-cost-max">150</span></span>
+                                </div>
+                                <input type="range" id="input-cost-range" min="0" max="150" step="0.1" value="150">
+                            </div>
+                            <div class="range-filter">
+                                <label for="output-cost-range">Output Cost (per M tokens)</label>
+                                <div class="range-display">
+                                    <span>$<span id="output-cost-min">0</span></span>
+                                    <span>$<span id="output-cost-max">600</span></span>
+                                </div>
+                                <input type="range" id="output-cost-range" min="0" max="600" step="0.1" value="600">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Context Length -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="context-filter">
+                            <span>Context Length</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="context-filter">
+                            <div class="range-filter">
+                                <label for="context-range">Context Length (tokens)</label>
+                                <div class="range-display">
+                                    <span id="context-min">4K</span>
+                                    <span id="context-max">3.5M</span>
+                                </div>
+                                <input type="range" id="context-range" min="4000" max="3500000" step="1000" value="3500000">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Knowledge Cutoff -->
+                    <div class="filter-section">
+                        <h4 class="filter-title collapsible" data-target="knowledge-filter">
+                            <span>Knowledge Cutoff</span>
+                            <span class="collapse-icon">−</span>
+                        </h4>
+                        <div class="filter-content" id="knowledge-filter">
+                            <div id="knowledge-checkboxes"></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="main-content">
+                <div class="content-header">
+                    <div class="view-controls">
+                        <label for="sort-select">Sort by:</label>
+                        <select id="sort-select" class="form-control">
+                            <option value="name">Name</option>
+                            <option value="provider">Provider</option>
+                            <option value="input-cost">Input Cost</option>
+                            <option value="output-cost">Output Cost</option>
+                            <option value="context">Context Length</option>
+                        </select>
+                    </div>
+                    <div class="action-controls">
+                        <button class="btn btn--outline btn--sm" id="export-btn">Export CSV</button>
+                        <button class="btn btn--primary btn--sm" id="compare-btn" disabled>Compare Selected</button>
+                    </div>
+                </div>
+
+                <div class="models-container" id="models-container">
+                    <!-- Provider sections will be dynamically generated here -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Tooltip -->
+    <div id="tooltip" class="tooltip"></div>
+
+    <!-- Comparison Modal -->
+    <div id="comparison-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Model Comparison</h3>
+                <button class="modal-close" id="close-comparison">&times;</button>
+            </div>
+            <div class="modal-body" id="comparison-content">
+                <!-- Comparison table will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
