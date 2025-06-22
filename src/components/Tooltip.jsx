@@ -53,21 +53,16 @@ const Tooltip = ({ show, model, position, onClose }) => {
   return (
     <div 
       ref={tooltipRef}
-      className="fixed z-50 bg-surface border border-card-border rounded-md shadow-lg p-4 max-w-md"
+      className="fixed z-50 bg-surface border border-card-border rounded-md shadow-lg p-4 max-w-md tooltip opacity-100"
       style={{ 
         top: `${tooltipPosition.top}px`, 
-        left: `${tooltipPosition.left}px` 
+        left: `${tooltipPosition.left}px`,
+        backgroundColor: 'var(--color-surface)',
+        opacity: 1
       }}
     >
       <div className="flex justify-between items-start mb-2">
         <h3 className="text-lg font-semibold">{model.name}</h3>
-        <button 
-          onClick={onClose}
-          className="text-text-secondary hover:text-text"
-          aria-label="Close tooltip"
-        >
-          &times;
-        </button>
       </div>
       
       <div className="grid grid-cols-2 gap-3 text-sm">
