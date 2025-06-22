@@ -14,7 +14,7 @@ const ModelCard = ({ model, providerId, isSelected, onSelect, onShowTooltip }) =
   if (!model) return null;
 
   const formatCost = (cost) => {
-    return typeof cost === 'number' ? `$${cost.toFixed(2)}` : 'N/A';
+    return typeof cost === 'number' ? `$${cost.toFixed(3)}` : 'N/A';
   };
 
   const formatLimit = (limit) => {
@@ -72,7 +72,7 @@ const ModelCard = ({ model, providerId, isSelected, onSelect, onShowTooltip }) =
                   R{model.reasoning ? "✓" : ""}
                 </span>
                 <span className={model.tool_call ? "text-success" : "text-text-secondary opacity-50"} title="Tool Calling">
-                  T{model.tool_call ? "✓" : ""}
+                  TC{model.tool_call ? "✓" : ""}
                 </span>
                 <span className={model.attachment ? "text-success" : "text-text-secondary opacity-50"} title="Attachment Support">
                   A{model.attachment ? "✓" : ""}

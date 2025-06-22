@@ -138,6 +138,7 @@ const ModelList = ({
                 </div>
 
                 <div className="space-y-2">
+
                   {models.map(model => (
                     <ModelCard 
                       key={`${providerId}-${model.id}`}

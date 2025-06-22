@@ -64,7 +64,11 @@ const Tooltip = ({ show, model, position, onClose }) => {
       <div className="flex justify-between items-start mb-2">
         <h3 className="text-lg font-semibold">{model.name}</h3>
       </div>
-      
+
+      <div>
+        <pre>{model.id}</pre>
+      </div>
+
       <div className="grid grid-cols-2 gap-3 text-sm">
         <div>
           <h4 className="font-medium text-text">Capabilities</h4>
