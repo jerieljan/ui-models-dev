@@ -106,8 +106,8 @@ const ModelCard = ({model, providerId, isSelected, onSelect, onShowTooltip}) => 
                         </div>
 
                         <div className="flex items-center text-text-secondary">
-                            <span className="w-20 sm:w-24 shrink-0">Context:</span>
-                            <span>{formatLimit(model.limit?.context)}</span>
+                            <span className="w-20 sm:w-24 shrink-0">Released:</span>
+                            <span>{model.release_date || 'Unknown'}</span>
                         </div>
 
                         <div className="flex items-center text-text-secondary">
@@ -122,6 +122,16 @@ const ModelCard = ({model, providerId, isSelected, onSelect, onShowTooltip}) => 
                   </span>
                                 ))}
                             </div>
+                        </div>
+
+                        <div className="flex items-center text-text-secondary">
+                            <span className="w-20 sm:w-24 shrink-0">Updated:</span>
+                            <span>{model.last_updated || 'Unknown'}</span>
+                        </div>
+
+                        <div className="flex items-center text-text-secondary">
+                            <span className="w-20 sm:w-24 shrink-0">Context:</span>
+                            <span>{formatLimit(model.limit?.context)}</span>
                         </div>
 
                         <div className="flex items-center text-text-secondary">

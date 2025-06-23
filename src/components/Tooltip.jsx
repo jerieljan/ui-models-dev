@@ -127,6 +127,12 @@ const Tooltip = ({show, model, position}) => {
                 <p className="text-text-secondary text-sm">
                     Knowledge cutoff: <span className="font-medium">{model.knowledge || 'Unknown'}</span>
                 </p>
+                <p className="text-text-secondary text-sm">
+                    Date Released <span className="font-medium">{model.release_date || 'Unknown'}</span>
+                </p>
+                <p className="text-text-secondary text-sm">
+                    Date Updated: <span className="font-medium">{model.last_updated || 'Unknown'}</span>
+                </p>
             </div>
         </div>
     );
