@@ -1,12 +1,52 @@
-# React + Vite
+# AI Models Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that provides comprehensive comparison and analysis capabilities for AI models across multiple providers. Built as a rich interface for [models.dev](https://models.dev) data.
 
-Currently, two official plugins are available:
+## Usage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Local Development
+```bash
+# Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+# Start development server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Run linting
+npm run lint
+```
+
+### Features
+
+- **Model Comparison**: Filter and compare AI models across multiple providers
+- **Advanced Filtering**: Search by capabilities, modalities, cost, and context length
+- **Export Functionality**: Export filtered results to CSV format
+- **Responsive Design**: Mobile-friendly interface with collapsible sidebar
+- **Real-time Data**: Fetches latest model data from models.dev API with local fallback
+
+### Model Data
+
+The application displays comprehensive information for each AI model:
+
+- Provider and model name
+- Capabilities (reasoning, tool calling, attachments, temperature control)
+- Input/output modalities (text, image, audio, etc.)
+- Pricing information (input/output costs per token)
+- Context and output length limits
+- Knowledge cutoff dates
+
+## Data Attribution
+
+This project uses model data from [models.dev](https://models.dev), an open-source project by [SST](https://sst.dev) that provides comprehensive AI model information.
+
+- **Data Source**: [models.dev](https://models.dev)
+- **GitHub Repository**: [sst/models.dev](https://github.com/sst/models.dev)
+- **API Endpoint**: https://models.dev/api.json
+
+Special thanks to the SST team for maintaining this valuable resource for the AI community.

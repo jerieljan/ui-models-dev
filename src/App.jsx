@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import useFetch from './hooks/useFetch';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
@@ -63,7 +63,7 @@ function App() {
     // Process each provider and its models
     Object.entries(data).forEach(([providerId, provider]) => {
       if (provider.models) {
-        Object.entries(provider.models).forEach(([modelId, model]) => {
+        Object.entries(provider.models).forEach(([, model]) => {
           // Add provider ID to each model for easier reference
           allModels.push({
             ...model,
@@ -87,7 +87,7 @@ function App() {
     // Process each provider and its models
     Object.entries(data).forEach(([providerId, provider]) => {
       if (provider.models) {
-        Object.entries(provider.models).forEach(([modelId, model]) => {
+        Object.entries(provider.models).forEach(([, model]) => {
           // Add provider ID to each model for easier reference
           allModels.push({
             ...model,
