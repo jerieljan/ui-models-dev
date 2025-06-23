@@ -311,7 +311,7 @@ function App() {
         {/* Overlay for mobile sidebar */}
         {sidebarOpen && (
           <div 
-            className="fixed inset-0 bg-black bg-opacity-50 z-20 md:hidden"
+            className="fixed inset-0 bg-surface bg-opacity-50 z-20 md:hidden"
             onClick={handleToggleSidebar}
           />
         )}

@@ -96,7 +96,7 @@ const Sidebar = ({ filters, onFilterChange, onClearFilters, data }) => {
   };
 
   return (
-    <aside className="w-64 bg-surface border-r border-card-border h-full overflow-y-auto">
+    <aside className="w-64 bg-white border-r border-card-border h-full overflow-y-auto">
       <div className="p-4">
         <div className="flex justify-between items-center mb-4">
           <h3 className="font-semibold">Filters</h3>
