@@ -99,8 +99,8 @@ const Tooltip = ({show, model, position}) => {
                 <div>
                     <h4 className="font-medium text-text">Modalities</h4>
                     <div className="mt-1">
-                        <p className="text-text-secondary">Input: {model.input_modalities?.join(', ') || 'None'}</p>
-                        <p className="text-text-secondary">Output: {model.output_modalities?.join(', ') || 'None'}</p>
+                        <p className="text-text-secondary">Input: {model.modalities?.input?.join(', ') || 'None'}</p>
+                        <p className="text-text-secondary">Output: {model.modalities?.output?.join(', ') || 'None'}</p>
                     </div>
                 </div>
 

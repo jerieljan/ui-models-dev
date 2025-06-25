@@ -94,7 +94,7 @@ const ModelCard = ({model, providerId, isSelected, onSelect, onShowTooltip}) => 
                         <div className="flex items-center text-text-secondary">
                             <span className="w-20 sm:w-24 shrink-0">Input:</span>
                             <div className="flex flex-wrap gap-1">
-                                {model.input_modalities?.map(modality => (
+                                {model.modalities?.input?.map(modality => (
                                     <span
                                         key={modality}
                                         className="inline-block px-1.5 py-0.5 bg-secondary rounded text-xs"
@@ -113,7 +113,7 @@ const ModelCard = ({model, providerId, isSelected, onSelect, onShowTooltip}) => 
                         <div className="flex items-center text-text-secondary">
                             <span className="w-20 sm:w-24 shrink-0">Output:</span>
                             <div className="flex flex-wrap gap-1">
-                                {model.output_modalities?.map(modality => (
+                                {model.modalities?.output?.map(modality => (
                                     <span
                                         key={modality}
                                         className="inline-block px-1.5 py-0.5 bg-secondary rounded text-xs"
