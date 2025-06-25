@@ -37,7 +37,7 @@ function App() {
 
   // Use API data if available, otherwise use local data
   const data = apiData || localData;
-  const error = apiData ? apiError : (localData ? null : localError);
+  const error = !data ? (apiError || localError) : null;
 
   // Process data when it's loaded
   useEffect(() => {
