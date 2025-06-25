@@ -16,23 +16,21 @@
         "reasoning": false,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-04",
+        "knowledge": "2025-01",
         "release_date": "2025-03-20",
         "last_updated": "2025-06-05",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 2000000,
           "output": 8192
@@ -48,18 +46,16 @@
         "knowledge": "2024-04",
         "release_date": "2024-10-22",
         "last_updated": "2024-10-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 200000,
           "output": 8192
@@ -75,16 +71,15 @@
         "knowledge": "2024-10",
         "release_date": "2024-12-20",
         "last_updated": "2025-01-29",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 128000,
           "output": 65536
@@ -100,18 +95,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 128000,
           "output": 16384
@@ -127,18 +120,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-02-19",
         "last_updated": "2025-02-19",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 200000,
           "output": 8192
@@ -154,18 +145,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-02-19",
         "last_updated": "2025-02-19",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 200000,
           "output": 8192
@@ -181,16 +170,15 @@
         "knowledge": "2024-10",
         "release_date": "2025-04-16",
         "last_updated": "2025-04-16",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 128000,
           "output": 65536
@@ -206,16 +194,15 @@
         "knowledge": "2023-10",
         "release_date": "2024-12-05",
         "last_updated": "2024-12-05",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 128000,
           "output": 32768
@@ -228,23 +215,21 @@
         "reasoning": false,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-04",
+        "knowledge": "2024-06",
         "release_date": "2024-12-11",
         "last_updated": "2024-12-11",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 1000000,
           "output": 8192
@@ -260,18 +245,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-05-13",
         "last_updated": "2024-05-13",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 128000,
           "output": 16384
@@ -287,18 +270,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-05-22",
         "last_updated": "2025-05-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0,
-          "output": 0,
-          "cache_read": 0
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
         },
+        "open_weights": false,
         "limit": {
           "context": 200000,
           "output": 8192
@@ -325,13 +306,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.4,
           "output": 1.6,
@@ -352,12 +336,15 @@
         "knowledge": "2023-09",
         "release_date": "2024-09-12",
         "last_updated": "2024-09-12",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 60,
@@ -378,12 +365,15 @@
         "knowledge": "2023-09",
         "release_date": "2024-09-12",
         "last_updated": "2024-09-12",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.1,
           "output": 4.4,
@@ -404,13 +394,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-02-01",
         "last_updated": "2025-02-01",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 75,
           "output": 150,
@@ -431,13 +424,16 @@
         "knowledge": "2023-09",
         "release_date": "2025-03-19",
         "last_updated": "2025-03-19",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 150,
           "output": 600
@@ -457,12 +453,15 @@
         "knowledge": "2024-05",
         "release_date": "2024-12-20",
         "last_updated": "2025-01-29",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.1,
           "output": 4.4,
@@ -483,13 +482,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 8,
@@ -510,13 +512,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-16",
         "last_updated": "2025-04-16",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 8,
@@ -537,13 +542,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-07-18",
         "last_updated": "2024-07-18",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.15,
           "output": 0.6,
@@ -564,13 +572,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-06-10",
         "last_updated": "2025-06-10",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 20,
           "output": 80
@@ -590,12 +601,15 @@
         "knowledge": "2024-04",
         "release_date": "2025-05-16",
         "last_updated": "2025-05-16",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.5,
           "output": 6,
@@ -616,13 +630,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.1,
           "output": 0.4,
@@ -643,13 +660,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-16",
         "last_updated": "2025-04-16",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.1,
           "output": 4.4,
@@ -670,13 +690,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-12-05",
         "last_updated": "2024-12-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 60,
@@ -689,7 +712,7 @@
       },
       "gpt-4": {
         "id": "gpt-4",
-        "name": "GPT-4 Turbo",
+        "name": "GPT-4",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -697,12 +720,15 @@
         "knowledge": "2023-11",
         "release_date": "2023-11-06",
         "last_updated": "2024-04-09",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 10,
           "output": 30
@@ -722,13 +748,16 @@
         "knowledge": "2023-12",
         "release_date": "2023-11-06",
         "last_updated": "2024-04-09",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 10,
           "output": 30
@@ -748,13 +777,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-05-13",
         "last_updated": "2024-05-13",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2.5,
           "output": 10,
@@ -787,12 +819,15 @@
         "knowledge": "2024-07",
         "release_date": "2025-01-20",
         "last_updated": "2025-05-29",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.55,
           "output": 2.19,
@@ -813,12 +848,15 @@
         "knowledge": "2024-07",
         "release_date": "2024-12-26",
         "last_updated": "2025-03-24",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.27,
           "output": 1.1,
@@ -842,7 +880,7 @@
     "models": {
       "claude-3-haiku-20240307": {
         "id": "claude-3-haiku-20240307",
-        "name": "Claude 3 Haiku",
+        "name": "Claude Haiku 3",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -850,18 +888,21 @@
         "knowledge": "2023-08-31",
         "release_date": "2024-03-13",
         "last_updated": "2024-03-13",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.25,
           "output": 1.25,
           "cache_read": 0.03,
-          "cache_write": 0.03
+          "cache_write": 0.3
         },
         "limit": {
           "context": 200000,
@@ -870,7 +911,7 @@
       },
       "claude-3-opus-20240229": {
         "id": "claude-3-opus-20240229",
-        "name": "Claude 3 Opus",
+        "name": "Claude Opus 3",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -878,18 +919,21 @@
         "knowledge": "2023-08-31",
         "release_date": "2024-02-29",
         "last_updated": "2024-02-29",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 75,
           "cache_read": 1.5,
-          "cache_write": 1.5
+          "cache_write": 18.75
         },
         "limit": {
           "context": 200000,
@@ -898,7 +942,7 @@
       },
       "claude-3-5-haiku-20241022": {
         "id": "claude-3-5-haiku-20241022",
-        "name": "Claude 3.5 Haiku",
+        "name": "Claude Haiku 3.5",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -906,18 +950,21 @@
         "knowledge": "2024-07-31",
         "release_date": "2024-10-22",
         "last_updated": "2024-10-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.8,
           "output": 4,
           "cache_read": 0.08,
-          "cache_write": 0.08
+          "cache_write": 1
         },
         "limit": {
           "context": 200000,
@@ -926,7 +973,7 @@
       },
       "claude-sonnet-4-20250514": {
         "id": "claude-sonnet-4-20250514",
-        "name": "Claude 4 Sonnet",
+        "name": "Claude Sonnet 4",
         "attachment": true,
         "reasoning": true,
         "temperature": true,
@@ -934,27 +981,30 @@
         "knowledge": "2025-03-31",
         "release_date": "2025-05-22",
         "last_updated": "2025-05-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
-          "cache_read": 3.75,
-          "cache_write": 0.3
+          "cache_read": 0.3,
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000,
-          "output": 50000
+          "output": 64000
         }
       },
       "claude-3-sonnet-20240229": {
         "id": "claude-3-sonnet-20240229",
-        "name": "Claude 3 Sonnet",
+        "name": "Claude Sonnet 3",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -962,13 +1012,16 @@
         "knowledge": "2023-08-31",
         "release_date": "2024-03-04",
         "last_updated": "2024-03-04",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -982,7 +1035,7 @@
       },
       "claude-3-5-sonnet-20240620": {
         "id": "claude-3-5-sonnet-20240620",
-        "name": "Claude 3.5 Sonnet",
+        "name": "Claude Sonnet 3.5",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -990,18 +1043,21 @@
         "knowledge": "2024-04-30",
         "release_date": "2024-06-20",
         "last_updated": "2024-06-20",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
           "cache_read": 0.3,
-          "cache_write": 0.3
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000,
@@ -1010,7 +1066,7 @@
       },
       "claude-opus-4-20250514": {
         "id": "claude-opus-4-20250514",
-        "name": "Claude 4 Opus",
+        "name": "Claude Opus 4",
         "attachment": true,
         "reasoning": true,
         "temperature": true,
@@ -1018,18 +1074,21 @@
         "knowledge": "2025-03-31",
         "release_date": "2025-05-22",
         "last_updated": "2025-05-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 75,
           "cache_read": 1.5,
-          "cache_write": 1.5
+          "cache_write": 18.75
         },
         "limit": {
           "context": 200000,
@@ -1038,7 +1097,7 @@
       },
       "claude-3-5-sonnet-20241022": {
         "id": "claude-3-5-sonnet-20241022",
-        "name": "Claude 3.5 Sonnet v2",
+        "name": "Claude Sonnet 3.5 v2",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -1046,18 +1105,21 @@
         "knowledge": "2024-04-30",
         "release_date": "2024-10-22",
         "last_updated": "2024-10-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
           "cache_read": 0.3,
-          "cache_write": 0.3
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000,
@@ -1066,7 +1128,7 @@
       },
       "claude-3-7-sonnet-20250219": {
         "id": "claude-3-7-sonnet-20250219",
-        "name": "Claude 3.7 Sonnet",
+        "name": "Claude Sonnet 3.7",
         "attachment": true,
         "reasoning": true,
         "temperature": true,
@@ -1074,22 +1136,354 @@
         "knowledge": "2024-10-31",
         "release_date": "2025-02-19",
         "last_updated": "2025-02-19",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
           "cache_read": 0.3,
-          "cache_write": 0.3
+          "cache_write": 3.75
         },
         "limit": {
           "context": 200000,
           "output": 64000
+        }
+      }
+    }
+  },
+  "openrouter": {
+    "id": "openrouter",
+    "env": [
+      "OPENROUTER_API_KEY"
+    ],
+    "npm": "@openrouter/ai-sdk-provider",
+    "name": "OpenRouter",
+    "doc": "https://openrouter.ai/models",
+    "models": {
+      "openai/gpt-4.1": {
+        "id": "openai/gpt-4.1",
+        "name": "GPT-4.1",
+        "attachment": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-04",
+        "release_date": "2025-04-14",
+        "last_updated": "2025-04-14",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 2,
+          "output": 8,
+          "cache_read": 0.5
+        },
+        "limit": {
+          "context": 1047576,
+          "output": 32768
+        }
+      },
+      "openai/gpt-4o-mini": {
+        "id": "openai/gpt-4o-mini",
+        "name": "GPT-4o-mini",
+        "attachment": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-10",
+        "release_date": "2024-07-18",
+        "last_updated": "2024-07-18",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": 0.08
+        },
+        "limit": {
+          "context": 128000,
+          "output": 16384
+        }
+      },
+      "anthropic/claude-4-sonnet-20250522": {
+        "id": "anthropic/claude-4-sonnet-20250522",
+        "name": "Claude Sonnet 4",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-03-31",
+        "release_date": "2025-05-22",
+        "last_updated": "2025-05-22",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 3,
+          "output": 15,
+          "cache_read": 0.3,
+          "cache_write": 3.75
+        },
+        "limit": {
+          "context": 200000,
+          "output": 64000
+        }
+      },
+      "anthropic/claude-3.7-sonnet": {
+        "id": "anthropic/claude-3.7-sonnet",
+        "name": "Claude Sonnet 3.7",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-01",
+        "release_date": "2025-02-19",
+        "last_updated": "2025-02-19",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 15,
+          "output": 75,
+          "cache_read": 1.5,
+          "cache_write": 18.75
+        },
+        "limit": {
+          "context": 200000,
+          "output": 128000
+        }
+      },
+      "anthropic/claude-opus-4": {
+        "id": "anthropic/claude-opus-4",
+        "name": "Claude Opus 4",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-03-31",
+        "release_date": "2025-05-22",
+        "last_updated": "2025-05-22",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 15,
+          "output": 75,
+          "cache_read": 1.5,
+          "cache_write": 18.75
+        },
+        "limit": {
+          "context": 200000,
+          "output": 32000
+        }
+      },
+      "google/gemini-2.5-pro-preview-05-06": {
+        "id": "google/gemini-2.5-pro-preview-05-06",
+        "name": "Gemini 2.5 Pro Preview 05-06",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-05-06",
+        "last_updated": "2025-05-06",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.31
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "google/gemini-2.5-pro-preview-06-05": {
+        "id": "google/gemini-2.5-pro-preview-06-05",
+        "name": "Gemini 2.5 Pro Preview 06-05",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-06-05",
+        "last_updated": "2025-06-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.31
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "google/gemini-2.5-flash-preview-04-17": {
+        "id": "google/gemini-2.5-flash-preview-04-17",
+        "name": "Gemini 2.5 Flash Preview 04-17",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-04-17",
+        "last_updated": "2025-04-17",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": 0.0375
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "google/gemini-2.5-flash-preview-05-20": {
+        "id": "google/gemini-2.5-flash-preview-05-20",
+        "name": "Gemini 2.5 Flash Preview 05-20",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-05-20",
+        "last_updated": "2025-05-20",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": 0.0375
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "google/gemini-2.0-flash-001": {
+        "id": "google/gemini-2.0-flash-001",
+        "name": "Gemini 2.0 Flash",
+        "attachment": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-06",
+        "release_date": "2024-12-11",
+        "last_updated": "2024-12-11",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.025
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 8192
         }
       }
     }
@@ -1112,13 +1506,16 @@
         "tool_call": true,
         "release_date": "2025-06-09",
         "last_updated": "2025-06-09",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 75
@@ -1137,13 +1534,16 @@
         "tool_call": true,
         "release_date": "2025-06-09",
         "last_updated": "2025-06-09",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15
@@ -1162,13 +1562,16 @@
         "tool_call": true,
         "release_date": "2025-05-22",
         "last_updated": "2025-05-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15
@@ -1199,12 +1602,15 @@
         "knowledge": "2024-10",
         "release_date": "2024-10-01",
         "last_updated": "2024-10-04",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.1,
           "output": 0.1
@@ -1224,12 +1630,15 @@
         "knowledge": "2024-01",
         "release_date": "2023-12-11",
         "last_updated": "2023-12-11",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.7,
           "output": 0.7
@@ -1249,12 +1658,15 @@
         "knowledge": "2023-12",
         "release_date": "2023-09-27",
         "last_updated": "2023-09-27",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.25,
           "output": 0.25
@@ -1274,13 +1686,16 @@
         "knowledge": "2024-09",
         "release_date": "2024-09-01",
         "last_updated": "2024-09-01",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.15,
           "output": 0.15
@@ -1300,13 +1715,16 @@
         "knowledge": "2025-05",
         "release_date": "2025-05-07",
         "last_updated": "2025-05-10",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.4,
           "output": 2
@@ -1326,12 +1744,15 @@
         "knowledge": "2024-04",
         "release_date": "2024-04-17",
         "last_updated": "2024-04-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 2,
           "output": 6
@@ -1351,13 +1772,16 @@
         "knowledge": "2024-11",
         "release_date": "2024-11-01",
         "last_updated": "2024-11-04",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 2,
           "output": 6
@@ -1377,12 +1801,15 @@
         "knowledge": "2025-05",
         "release_date": "2025-05-07",
         "last_updated": "2025-05-07",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.1,
           "output": 0.3
@@ -1402,12 +1829,15 @@
         "knowledge": "2024-07",
         "release_date": "2024-07-01",
         "last_updated": "2024-07-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.15,
           "output": 0.15
@@ -1427,12 +1857,15 @@
         "knowledge": "2025-06",
         "release_date": "2025-03-17",
         "last_updated": "2025-03-20",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 2,
           "output": 5
@@ -1452,12 +1885,15 @@
         "knowledge": "2024-10",
         "release_date": "2024-05-29",
         "last_updated": "2025-01-04",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.3,
           "output": 0.9
@@ -1477,12 +1913,15 @@
         "knowledge": "2024-10",
         "release_date": "2024-10-01",
         "last_updated": "2024-10-04",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.04,
           "output": 0.04
@@ -1502,12 +1941,15 @@
         "knowledge": "2024-11",
         "release_date": "2024-11-01",
         "last_updated": "2024-11-04",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 2,
           "output": 6
@@ -1527,12 +1969,15 @@
         "knowledge": "2025-06",
         "release_date": "2025-03-17",
         "last_updated": "2025-03-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.5,
           "output": 1.5
@@ -1552,13 +1997,16 @@
         "knowledge": "2025-03",
         "release_date": "2024-09-01",
         "last_updated": "2024-09-04",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.1,
           "output": 0.3
@@ -1589,12 +2037,15 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-20",
         "last_updated": "2024-08-20",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 10,
@@ -1616,12 +2067,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.3,
           "output": 0.5,
@@ -1643,13 +2097,16 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-20",
         "last_updated": "2024-08-20",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 10,
@@ -1671,12 +2128,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 5,
           "output": 25,
@@ -1698,12 +2158,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.6,
           "output": 4,
@@ -1725,12 +2188,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.6,
           "output": 4,
@@ -1752,12 +2218,15 @@
         "knowledge": "2024-08",
         "release_date": "2024-12-12",
         "last_updated": "2024-12-12",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 10,
@@ -1779,12 +2248,15 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-20",
         "last_updated": "2024-12-12",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 10,
@@ -1806,13 +2278,16 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-20",
         "last_updated": "2024-12-12",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 10,
@@ -1834,12 +2309,15 @@
         "knowledge": "2024-08",
         "release_date": "2024-11-01",
         "last_updated": "2024-11-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 5,
           "output": 15,
@@ -1861,12 +2339,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 5,
           "output": 25,
@@ -1888,13 +2369,16 @@
         "knowledge": "2024-08",
         "release_date": "2024-11-01",
         "last_updated": "2024-11-01",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 5,
           "output": 15,
@@ -1916,12 +2400,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -1943,12 +2430,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.3,
           "output": 0.5,
@@ -1970,13 +2460,16 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-20",
         "last_updated": "2024-12-12",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 10,
@@ -1998,12 +2491,15 @@
         "knowledge": "2024-11",
         "release_date": "2025-02-17",
         "last_updated": "2025-02-17",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -2030,7 +2526,7 @@
     "models": {
       "anthropic.claude-3-5-haiku-20241022-v1:0": {
         "id": "anthropic.claude-3-5-haiku-20241022-v1:0",
-        "name": "Claude 3.5 Haiku",
+        "name": "Claude Haiku 3.5",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2038,12 +2534,15 @@
         "knowledge": "2024-07",
         "release_date": "2024-10-22",
         "last_updated": "2024-10-22",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.8,
           "output": 4,
@@ -2065,13 +2564,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-05-22",
         "last_updated": "2025-05-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -2093,12 +2595,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-09-25",
         "last_updated": "2024-09-25",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.1,
           "output": 0.1
@@ -2118,12 +2623,15 @@
         "knowledge": "2023-08",
         "release_date": "2023-11-21",
         "last_updated": "2023-11-21",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 8,
           "output": 24
@@ -2143,13 +2651,16 @@
         "knowledge": "2024-08",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.24,
           "output": 0.97
@@ -2161,7 +2672,7 @@
       },
       "anthropic.claude-3-7-sonnet-20250219-v1:0": {
         "id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-        "name": "Claude 3.7 Sonnet",
+        "name": "Claude Sonnet 3.7",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2169,13 +2680,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-02-19",
         "last_updated": "2025-02-19",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -2197,12 +2711,15 @@
         "knowledge": "2023-08",
         "release_date": "2023-03-01",
         "last_updated": "2023-03-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.8,
           "output": 2.4
@@ -2222,14 +2739,17 @@
         "knowledge": "2024-10",
         "release_date": "2024-12-03",
         "last_updated": "2024-12-03",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.06,
           "output": 0.24,
@@ -2250,12 +2770,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-09-25",
         "last_updated": "2024-09-25",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.15,
           "output": 0.15
@@ -2275,12 +2798,15 @@
         "knowledge": "2023-08",
         "release_date": "2023-11-01",
         "last_updated": "2023-11-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.3,
           "output": 0.6
@@ -2300,14 +2826,17 @@
         "knowledge": "2024-10",
         "release_date": "2024-12-03",
         "last_updated": "2024-12-03",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2.5,
           "output": 12.5
@@ -2327,12 +2856,15 @@
         "knowledge": "2023-08",
         "release_date": "2023-07-11",
         "last_updated": "2023-07-11",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 8,
           "output": 24
@@ -2352,12 +2884,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-07-23",
         "last_updated": "2024-07-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.22,
           "output": 0.22
@@ -2369,7 +2904,7 @@
       },
       "anthropic.claude-3-opus-20240229-v1:0": {
         "id": "anthropic.claude-3-opus-20240229-v1:0",
-        "name": "Claude 3 Opus",
+        "name": "Claude Opus 3",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2377,13 +2912,16 @@
         "knowledge": "2023-08",
         "release_date": "2024-02-29",
         "last_updated": "2024-02-29",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 75
@@ -2403,12 +2941,15 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-15",
         "last_updated": "2024-08-15",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.2,
           "output": 0.4
@@ -2420,7 +2961,7 @@
       },
       "anthropic.claude-3-5-sonnet-20240620-v1:0": {
         "id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-        "name": "Claude 3.5 Sonnet",
+        "name": "Claude Sonnet 3.5",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2428,13 +2969,16 @@
         "knowledge": "2024-04",
         "release_date": "2024-06-20",
         "last_updated": "2024-06-20",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -2456,12 +3000,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-12-06",
         "last_updated": "2024-12-06",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.72,
           "output": 0.72
@@ -2481,12 +3028,15 @@
         "knowledge": "2024-04",
         "release_date": "2024-04-04",
         "last_updated": "2024-04-04",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 3,
           "output": 15
@@ -2506,12 +3056,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-07-23",
         "last_updated": "2024-07-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 2.65,
           "output": 3.5
@@ -2531,12 +3084,15 @@
         "knowledge": "2024-10",
         "release_date": "2024-12-03",
         "last_updated": "2024-12-03",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.035,
           "output": 0.14,
@@ -2557,12 +3113,15 @@
         "knowledge": "2023-03",
         "release_date": "2024-07-23",
         "last_updated": "2024-07-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.3,
           "output": 0.6
@@ -2582,12 +3141,15 @@
         "knowledge": "2024-08",
         "release_date": "2024-08-15",
         "last_updated": "2024-08-15",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 2,
           "output": 8
@@ -2607,12 +3169,15 @@
         "knowledge": "2023-08",
         "release_date": "2023-11-01",
         "last_updated": "2023-11-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 1.5,
           "output": 2
@@ -2632,12 +3197,15 @@
         "knowledge": "2024-07",
         "release_date": "2025-01-20",
         "last_updated": "2025-05-29",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.35,
           "output": 5.4
@@ -2649,7 +3217,7 @@
       },
       "anthropic.claude-3-5-sonnet-20241022-v2:0": {
         "id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-        "name": "Claude 3.5 Sonnet v2",
+        "name": "Claude Sonnet 3.5 v2",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2657,13 +3225,16 @@
         "knowledge": "2024-04",
         "release_date": "2024-10-22",
         "last_updated": "2024-10-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15,
@@ -2685,14 +3256,17 @@
         "knowledge": "2024-10",
         "release_date": "2024-12-03",
         "last_updated": "2024-12-03",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.8,
           "output": 3.2,
@@ -2713,12 +3287,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-07-23",
         "last_updated": "2024-07-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.72,
           "output": 0.72
@@ -2738,13 +3315,16 @@
         "knowledge": "2024-08",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.17,
           "output": 0.66
@@ -2764,13 +3344,16 @@
         "knowledge": "2024-04",
         "release_date": "2025-05-22",
         "last_updated": "2025-05-22",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 75,
@@ -2792,12 +3375,15 @@
         "knowledge": "2024-04",
         "release_date": "2024-03-11",
         "last_updated": "2024-03-11",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.5,
           "output": 1.5
@@ -2809,7 +3395,7 @@
       },
       "anthropic.claude-3-sonnet-20240229-v1:0": {
         "id": "anthropic.claude-3-sonnet-20240229-v1:0",
-        "name": "Claude 3 Sonnet",
+        "name": "Claude Sonnet 3",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2817,13 +3403,16 @@
         "knowledge": "2023-08",
         "release_date": "2024-03-04",
         "last_updated": "2024-03-04",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 15
@@ -2835,7 +3424,7 @@
       },
       "anthropic.claude-3-haiku-20240307-v1:0": {
         "id": "anthropic.claude-3-haiku-20240307-v1:0",
-        "name": "Claude 3 Haiku",
+        "name": "Claude Haiku 3",
         "attachment": true,
         "reasoning": false,
         "temperature": true,
@@ -2843,13 +3432,16 @@
         "knowledge": "2024-02",
         "release_date": "2024-03-13",
         "last_updated": "2024-03-13",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.25,
           "output": 1.25
@@ -2869,13 +3461,16 @@
         "knowledge": "2023-12",
         "release_date": "2024-09-25",
         "last_updated": "2024-09-25",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.72,
           "output": 0.72
@@ -2895,13 +3490,16 @@
         "knowledge": "2023-12",
         "release_date": "2024-09-25",
         "last_updated": "2024-09-25",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.16,
           "output": 0.16
@@ -2922,32 +3520,6 @@
     "name": "Groq",
     "doc": "https://console.groq.com/docs/models",
     "models": {
-      "meta-llama%2Fllama-4-maverick-17b-128e-instruct": {
-        "id": "meta-llama%2fllama-4-maverick-17b-128e-instruct",
-        "name": "Llama 4 Maverick 17B",
-        "attachment": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true,
-        "knowledge": "2024-08",
-        "release_date": "2025-04-05",
-        "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0.2,
-          "output": 0.6
-        },
-        "limit": {
-          "context": 131072,
-          "output": 8192
-        }
-      },
       "llama-3.3-70b-versatile": {
         "id": "llama-3.3-70b-versatile",
         "name": "Llama 3.3 70B Versatile",
@@ -2958,12 +3530,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-12-06",
         "last_updated": "2024-12-06",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.59,
           "output": 0.79
@@ -2983,12 +3558,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-07-23",
         "last_updated": "2024-07-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.05,
           "output": 0.08
@@ -3007,12 +3585,15 @@
         "tool_call": false,
         "release_date": "2024-07-23",
         "last_updated": "2024-07-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.2,
           "output": 0.2
@@ -3020,31 +3601,6 @@
         "limit": {
           "context": 8192,
           "output": 8192
-        }
-      },
-      "qwen%2Fqwen3-32b": {
-        "id": "qwen%2fqwen3-32b",
-        "name": "Qwen3 32B",
-        "attachment": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true,
-        "knowledge": "2024-11-08",
-        "release_date": "2024-12-23",
-        "last_updated": "2024-12-23",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0.29,
-          "output": 0.59
-        },
-        "limit": {
-          "context": 131072,
-          "output": 16384
         }
       },
       "gemma2-9b-it": {
@@ -3057,12 +3613,15 @@
         "knowledge": "2024-06",
         "release_date": "2024-06-27",
         "last_updated": "2024-06-27",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.2,
           "output": 0.2
@@ -3082,12 +3641,15 @@
         "knowledge": "2023-03",
         "release_date": "2024-04-18",
         "last_updated": "2024-04-18",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.05,
           "output": 0.08
@@ -3107,12 +3669,15 @@
         "knowledge": "2023-03",
         "release_date": "2024-04-18",
         "last_updated": "2024-04-18",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.59,
           "output": 0.79
@@ -3132,41 +3697,18 @@
         "knowledge": "2024-07",
         "release_date": "2025-01-20",
         "last_updated": "2025-01-20",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.75,
           "output": 0.99
-        },
-        "limit": {
-          "context": 131072,
-          "output": 8192
-        }
-      },
-      "meta-llama%2Fllama-4-scout-17b-16e-instruct": {
-        "id": "meta-llama%2fllama-4-scout-17b-16e-instruct",
-        "name": "Llama 4 Scout 17B",
-        "attachment": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true,
-        "knowledge": "2024-08",
-        "release_date": "2025-04-05",
-        "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0.11,
-          "output": 0.34
         },
         "limit": {
           "context": 131072,
@@ -3183,12 +3725,15 @@
         "knowledge": "2024-09",
         "release_date": "2024-11-27",
         "last_updated": "2024-11-27",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0.29,
           "output": 0.39
@@ -3196,31 +3741,6 @@
         "limit": {
           "context": 131072,
           "output": 16384
-        }
-      },
-      "meta-llama%2Fllama-guard-4-12b": {
-        "id": "meta-llama%2fllama-guard-4-12b",
-        "name": "Llama Guard 4 12B",
-        "attachment": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false,
-        "release_date": "2025-04-05",
-        "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "cost": {
-          "input": 0.2,
-          "output": 0.2
-        },
-        "limit": {
-          "context": 131072,
-          "output": 128
         }
       },
       "mistral-saba-24b": {
@@ -3233,12 +3753,15 @@
         "knowledge": "2024-08",
         "release_date": "2025-02-06",
         "last_updated": "2025-02-06",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.79,
           "output": 0.79
@@ -3246,6 +3769,120 @@
         "limit": {
           "context": 32768,
           "output": 32768
+        }
+      },
+      "qwen/qwen3-32b": {
+        "id": "qwen/qwen3-32b",
+        "name": "Qwen3 32B",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-11-08",
+        "release_date": "2024-12-23",
+        "last_updated": "2024-12-23",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
+        "cost": {
+          "input": 0.29,
+          "output": 0.59
+        },
+        "limit": {
+          "context": 131072,
+          "output": 16384
+        }
+      },
+      "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "id": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "name": "Llama 4 Maverick 17B",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-08",
+        "release_date": "2025-04-05",
+        "last_updated": "2025-04-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
+        "cost": {
+          "input": 0.2,
+          "output": 0.6
+        },
+        "limit": {
+          "context": 131072,
+          "output": 8192
+        }
+      },
+      "meta-llama/llama-4-scout-17b-16e-instruct": {
+        "id": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "name": "Llama 4 Scout 17B",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-08",
+        "release_date": "2025-04-05",
+        "last_updated": "2025-04-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
+        "cost": {
+          "input": 0.11,
+          "output": 0.34
+        },
+        "limit": {
+          "context": 131072,
+          "output": 8192
+        }
+      },
+      "meta-llama/llama-guard-4-12b": {
+        "id": "meta-llama/llama-guard-4-12b",
+        "name": "Llama Guard 4 12B",
+        "attachment": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false,
+        "release_date": "2025-04-05",
+        "last_updated": "2025-04-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
+        "cost": {
+          "input": 0.2,
+          "output": 0.2
+        },
+        "limit": {
+          "context": 131072,
+          "output": 128
         }
       }
     }
@@ -3269,12 +3906,15 @@
         "tool_call": false,
         "release_date": "2024-08-15",
         "last_updated": "2024-08-15",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.9,
           "output": 1.9
@@ -3293,12 +3933,15 @@
         "tool_call": false,
         "release_date": "2024-08-15",
         "last_updated": "2024-08-15",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.8,
           "output": 1.2
@@ -3317,12 +3960,15 @@
         "tool_call": false,
         "release_date": "2024-06-01",
         "last_updated": "2024-06-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.85,
           "output": 1.55
@@ -3354,12 +4000,15 @@
         "knowledge": "2025-01",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3379,13 +4028,16 @@
         "knowledge": "2024-08",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3405,12 +4057,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-12-06",
         "last_updated": "2024-12-06",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3430,12 +4085,15 @@
         "knowledge": "2025-01",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3455,12 +4113,15 @@
         "knowledge": "2025-01",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3480,12 +4141,15 @@
         "knowledge": "2023-12",
         "release_date": "2024-12-06",
         "last_updated": "2024-12-06",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3505,13 +4169,16 @@
         "knowledge": "2024-08",
         "release_date": "2025-04-05",
         "last_updated": "2025-04-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": true,
         "cost": {
           "input": 0,
           "output": 0
@@ -3519,6 +4186,282 @@
         "limit": {
           "context": 128000,
           "output": 4096
+        }
+      }
+    }
+  },
+  "google-vertex": {
+    "id": "google-vertex",
+    "env": [
+      "GOOGLE_VERTEX_PROJECT",
+      "GOOGLE_VERTEX_LOCATION",
+      "GOOGLE_APPLICATION_CREDENTIALS"
+    ],
+    "npm": "@ai-sdk/google-vertex",
+    "name": "Vertex",
+    "doc": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+    "models": {
+      "gemini-2.5-pro-preview-05-06": {
+        "id": "gemini-2.5-pro-preview-05-06",
+        "name": "Gemini 2.5 Pro Preview 05-06",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-05-06",
+        "last_updated": "2025-05-06",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.31
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "gemini-2.5-pro-preview-06-05": {
+        "id": "gemini-2.5-pro-preview-06-05",
+        "name": "Gemini 2.5 Pro Preview 06-05",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-06-05",
+        "last_updated": "2025-06-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.31
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "gemini-2.5-pro": {
+        "id": "gemini-2.5-pro",
+        "name": "Gemini 2.5 Pro",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-03-20",
+        "last_updated": "2025-06-05",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 1.25,
+          "output": 10,
+          "cache_read": 0.31
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "gemini-2.5-flash-lite-preview-06-17": {
+        "id": "gemini-2.5-flash-lite-preview-06-17",
+        "name": "Gemini 2.5 Flash Lite Preview 06-17",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-06-17",
+        "last_updated": "2025-06-17",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.025
+        },
+        "limit": {
+          "context": 65536,
+          "output": 65536
+        }
+      },
+      "gemini-2.0-flash-lite": {
+        "id": "gemini-2.0-flash-lite",
+        "name": "Gemini 2.0 Flash Lite",
+        "attachment": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-06",
+        "release_date": "2024-12-11",
+        "last_updated": "2024-12-11",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.075,
+          "output": 0.3
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 8192
+        }
+      },
+      "gemini-2.5-flash-preview-04-17": {
+        "id": "gemini-2.5-flash-preview-04-17",
+        "name": "Gemini 2.5 Flash Preview 04-17",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-04-17",
+        "last_updated": "2025-04-17",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": 0.0375
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "gemini-2.5-flash-preview-05-20": {
+        "id": "gemini-2.5-flash-preview-05-20",
+        "name": "Gemini 2.5 Flash Preview 05-20",
+        "attachment": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2025-01",
+        "release_date": "2025-05-20",
+        "last_updated": "2025-05-20",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cache_read": 0.0375
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 65536
+        }
+      },
+      "gemini-2.0-flash": {
+        "id": "gemini-2.0-flash",
+        "name": "Gemini 2.0 Flash",
+        "attachment": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true,
+        "knowledge": "2024-06",
+        "release_date": "2024-12-11",
+        "last_updated": "2024-12-11",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
+        "cost": {
+          "input": 0.1,
+          "output": 0.4,
+          "cache_read": 0.025
+        },
+        "limit": {
+          "context": 1048576,
+          "output": 8192
         }
       }
     }
@@ -3543,13 +4486,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.4,
           "output": 1.6,
@@ -3570,12 +4516,15 @@
         "knowledge": "2023-09",
         "release_date": "2024-09-12",
         "last_updated": "2024-09-12",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 16.5,
           "output": 66,
@@ -3596,12 +4545,15 @@
         "knowledge": "2023-09",
         "release_date": "2024-09-12",
         "last_updated": "2024-09-12",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.1,
           "output": 4.4,
@@ -3622,12 +4574,15 @@
         "knowledge": "2021-08",
         "release_date": "2023-11-06",
         "last_updated": "2023-11-06",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1,
           "output": 2
@@ -3647,12 +4602,15 @@
         "knowledge": "2021-08",
         "release_date": "2023-09-21",
         "last_updated": "2023-09-21",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.5,
           "output": 2
@@ -3672,12 +4630,15 @@
         "knowledge": "2024-05",
         "release_date": "2024-12-20",
         "last_updated": "2025-01-29",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.1,
           "output": 4.4,
@@ -3698,13 +4659,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 8,
@@ -3725,13 +4689,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-16",
         "last_updated": "2025-04-16",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2,
           "output": 8,
@@ -3752,12 +4719,15 @@
         "knowledge": "2021-08",
         "release_date": "2023-06-13",
         "last_updated": "2023-06-13",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 3,
           "output": 4
@@ -3777,13 +4747,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-07-18",
         "last_updated": "2024-07-18",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.15,
           "output": 0.6,
@@ -3804,13 +4777,16 @@
         "knowledge": "2023-11",
         "release_date": "2023-11-06",
         "last_updated": "2024-04-09",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 10,
           "output": 30
@@ -3830,13 +4806,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-14",
         "last_updated": "2025-04-14",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.1,
           "output": 0.4,
@@ -3857,13 +4836,16 @@
         "knowledge": "2024-05",
         "release_date": "2025-04-16",
         "last_updated": "2025-04-16",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.1,
           "output": 4.4,
@@ -3884,12 +4866,15 @@
         "knowledge": "2021-08",
         "release_date": "2024-01-25",
         "last_updated": "2024-01-25",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.5,
           "output": 1.5
@@ -3909,13 +4894,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-12-05",
         "last_updated": "2024-12-05",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 15,
           "output": 60,
@@ -3936,12 +4924,15 @@
         "knowledge": "2021-08",
         "release_date": "2023-03-01",
         "last_updated": "2023-03-01",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.5,
           "output": 2
@@ -3961,12 +4952,15 @@
         "knowledge": "2023-11",
         "release_date": "2023-03-14",
         "last_updated": "2023-03-14",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 60,
           "output": 120
@@ -3986,13 +4980,16 @@
         "knowledge": "2023-11",
         "release_date": "2023-11-06",
         "last_updated": "2024-04-09",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 10,
           "output": 30
@@ -4012,13 +5009,16 @@
         "knowledge": "2023-09",
         "release_date": "2024-05-13",
         "last_updated": "2024-05-13",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 2.5,
           "output": 10,
@@ -4039,12 +5039,15 @@
         "knowledge": "2023-11",
         "release_date": "2023-03-14",
         "last_updated": "2023-03-14",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 60,
           "output": 120
@@ -4072,19 +5075,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-05-06",
         "last_updated": "2025-05-06",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.25,
           "output": 10,
@@ -4102,19 +5108,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-06-05",
         "last_updated": "2025-06-05",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.25,
           "output": 10,
@@ -4132,19 +5141,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-03-20",
         "last_updated": "2025-06-05",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.25,
           "output": 10,
@@ -4162,18 +5174,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-06-17",
         "last_updated": "2025-06-17",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.1,
           "output": 0.4,
@@ -4191,18 +5207,22 @@
         "reasoning": false,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-08",
+        "knowledge": "2024-06",
         "release_date": "2024-12-11",
         "last_updated": "2024-12-11",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.075,
           "output": 0.3
@@ -4222,15 +5242,18 @@
         "knowledge": "2024-04",
         "release_date": "2024-02-15",
         "last_updated": "2024-02-15",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 1.25,
           "output": 5,
@@ -4248,18 +5271,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-04-17",
         "last_updated": "2025-04-17",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.15,
           "output": 0.6,
@@ -4280,15 +5307,18 @@
         "knowledge": "2024-04",
         "release_date": "2024-10-03",
         "last_updated": "2024-10-03",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.0375,
           "output": 0.15,
@@ -4306,18 +5336,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-05-20",
         "last_updated": "2025-05-20",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.15,
           "output": 0.6,
@@ -4335,18 +5369,22 @@
         "reasoning": false,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-08",
+        "knowledge": "2024-06",
         "release_date": "2024-12-11",
         "last_updated": "2024-12-11",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.1,
           "output": 0.4,
@@ -4364,18 +5402,22 @@
         "reasoning": true,
         "temperature": true,
         "tool_call": true,
-        "knowledge": "2024-11",
+        "knowledge": "2025-01",
         "release_date": "2025-03-20",
         "last_updated": "2025-06-05",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.3,
           "output": 2.5,
@@ -4396,15 +5438,18 @@
         "knowledge": "2024-04",
         "release_date": "2024-05-14",
         "last_updated": "2024-05-14",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "open_weights": false,
         "cost": {
           "input": 0.075,
           "output": 0.3,
