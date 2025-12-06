@@ -28,8 +28,8 @@ function App() {
     knowledgeCutoffs: new Set()
   });
 
-  // Fetch data from API with fallback to local data
-  const { data: apiData, loading: apiLoading, error: apiError } = useFetch('https://models.dev/api.json');
+  // Fetch data from local API with fallback to local data
+  const { data: apiData, loading: apiLoading, error: apiError } = useFetch('http://localhost:3001/api/models');
   const { data: localData, loading: localLoading, error: localError } = useFetch('./data/models-dev.json');
 
   // Determine loading state
